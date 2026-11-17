@@ -1,0 +1,46 @@
+:root {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #f2efff;
+  background: #090a10;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --surface: #0d0e16;
+  --text: #f2efff;
+  --muted: #9998b2;
+  --mauve: #b58aff;
+  --line: #28263b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--mauve);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: white;
+  background: #7550c5;
+}
